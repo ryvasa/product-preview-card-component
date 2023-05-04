@@ -1,0 +1,93 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+body {
+  padding: 0;
+  margin: 0;
+}
+.card {
+  background-color: #ece1e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card-body {
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 0.05);
+  overflow: hidden;
+}
+.card-left {
+  flex: 1 1 0%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: -40px;
+}
+.card-right {
+  flex: 1 1 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.product-type {
+  color: #444444;
+  padding: 40px 40px 0px 40px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 5px;
+}
+.product-title {
+  padding: 0px 40px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+.product-desc {
+  color: #444444;
+  padding: 0px 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  word-spacing: 5px;
+}
+.product-price {
+  align-items: center;
+  padding: 0px 40px;
+  display: flex;
+  gap: 10px;
+}
+.price-left {
+  font-size: 30px;
+  font-weight: 700;
+  color: #3d8168;
+}
+.price-right {
+  color: #444444;
+  text-decoration: line-through;
+}
+.button {
+  color: #444444;
+  padding: 0px 40px 40px 40px;
+}
+.add-button {
+  font-size: 17px;
+  font-weight: 400;
+  border: none;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  background-color: #3d8168;
+  color: white;
+  gap: 10px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.button .add-button span {
+  font-family: "Roboto", sans-serif;
+}
